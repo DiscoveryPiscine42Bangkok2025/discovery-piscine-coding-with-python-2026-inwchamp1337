@@ -13,3 +13,6 @@ elif result < 0:
     print("The result is negative.")
 else:
     print("The result is positive and negative.")
+
+
+# cell2.3
