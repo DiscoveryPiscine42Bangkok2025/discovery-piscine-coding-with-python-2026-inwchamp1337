@@ -5,7 +5,7 @@
 # none$
 # ?> ./string_are_arrays.py "The character z is found in this string" | cat -e
 # z$
-# ?> ./string_are_arrays.py "Zaz visits the zoo with Zazie" | cat-e
+# ?> ./string_are_arrays.py "Zaz visits the zoo with Zazie" | cat -e
 # zzz$
 # ?
 import sys
