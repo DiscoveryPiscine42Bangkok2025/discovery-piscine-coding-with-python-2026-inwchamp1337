@@ -9,3 +9,9 @@ else:
         if not word.endswith("ism"):
             print(word + "ism")
 
+# > ./append_it.py | cat-e
+# none$
+# ?> ./append_it.py "parallel" "egoism" "human" | cat-e
+# parallelism$
+# humanism$
+# ?>
