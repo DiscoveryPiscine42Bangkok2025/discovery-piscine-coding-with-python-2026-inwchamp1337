@@ -11,7 +11,7 @@ else:
 
 # > ./append_it.py | cat-e
 # none$
-# ?> ./append_it.py "parallel" "egoism" "human" | cat-e
+# ?> ./append_it.py "parallel" "egoism" "human" | cat -e
 # parallelism$
 # humanism$
 # ?>

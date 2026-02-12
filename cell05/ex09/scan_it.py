@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-
+# ?> ./scan_it.py | cat -e
+# none$
+# ?> ./scan_it.py "the" | cat -e
+# none$
+# ?> ./scan_it.py "the" "the quick brown fox jumps over the lazy dog" | cat -e
+# 2$
+# ?>
 import sys
 
 if len(sys.argv) != 3:
